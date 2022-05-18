@@ -1,0 +1,29 @@
+@import url(./main.css);
+@import url(./defaults.css);
+@import url(./user.css);
+@import url(./cards.css);
+@import url(./custom.css);
+
+:root {
+    --user-blue: hsl(246, 80%, 60%);
+    --work: hsl(15, 100%, 70%);
+    --play: hsl(195, 74%, 62%);
+    --study: hsl(348, 100%, 68%);
+    --exercise: hsl(145, 58%, 55%);
+    --social: hsl(264, 64%, 52%);
+    --self-care: hsl(43, 84%, 65%);
+    --background: hsl(226, 43%, 10%);
+    --stat-card: hsl(235, 46%, 20%);
+    --card-hover: hsl(235, 45%, 35%);
+    --text-blue: hsl(236, 100%, 87%);
+    --text-white: rgba(255, 255, 255, .9);
+    --ff-400: 1.125rem;
+    --ff-300: 1rem;
+    --padding: 1.5rem;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--ff-400);
+    background-color: var(--background);
+}

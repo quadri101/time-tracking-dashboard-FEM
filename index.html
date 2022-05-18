@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/03df3ffd49.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <main class="main">
+    <div class="cards">
+
+      <div class="card user">
+        <div class="card-head">
+          <img class="user-img" src="images/image-jeremy.png" alt="jeremy's image">
+          <div class="desc">
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="time-range">
+          <a class="daily" href="#">Daily</a>
+          <a class="weekly selected" href="#">Weekly</a>
+          <a class="monthly" href="#">Monthly</a>
+        </div>
+      </div>
+
+      <div class="card work">
+        <div class="card-footer">
+          <div class="activity">
+            <p>Work</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="stat">
+            <h1 class="current">32hrs</h1>
+            <p class="previous">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card play">
+        <div class="card-footer">
+          <div class="activity">
+            <p>Play</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="stat">
+            <h1 class="current">10hrs</h1>
+            <p class="previous">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card study">
+        <div class="card-footer">
+          <div class="activity">
+            <p>Study</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="stat">
+            <h1 class="current">4hrs</h1>
+            <p class="previous">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card exercise">
+        <div class="card-footer">
+          <div class="activity">
+            <p>Exercise</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="stat">
+            <h1 class="current">4hrs</h1>
+            <p class="previous">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card social">
+        <div class="card-footer">
+          <div class="activity">
+            <p>Social</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="stat">
+            <h1 class="current">5hrs</h1>
+            <p class="previous">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card self-care">
+        <div class="card-footer">
+          <div class="activity">
+            <p>Self Care</p>
+            
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="stat">
+            <h1 class="current">2hrs</h1>
+            <p class="previous">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">MasterShiffu0</a>.
+  </div>
+  <script type="module" src="javascript/index.js"></script>
+</body>
+
+</html>

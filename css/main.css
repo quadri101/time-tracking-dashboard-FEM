@@ -1,0 +1,112 @@
+.main {
+    padding: 5rem 1.5rem;
+    margin: auto 0;
+}
+
+i {
+    font-size: 1.5rem;
+    color: var(--text-blue);
+}
+
+i:hover {
+    color: var(--text-white);
+}
+
+
+.cards {
+    display: grid;
+    grid-template-areas:
+        'user'
+        'work'
+        'play'
+        'study'
+        'exercise'
+        'social'
+        'self-care'
+    ;
+    gap: var(--padding);
+    max-width: 57rem;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: max(90%, 280px);
+    padding-top: 2rem;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position: right 10% top -10%;
+
+}
+
+.card-footer {
+    padding: var(--padding);
+    background-color: var(--stat-card);
+    border-radius: 1rem;
+
+}
+
+.card-footer:hover {
+    background-color: var(--card-hover);
+}
+
+.activity,
+.stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat>h1 {
+    font-weight: 300;
+    color: var(--text-white);
+}
+
+.stat>p {
+    font-size: .8rem;
+    color: var(--text-blue);
+    font-weight: 300;
+}
+
+.activity>p {
+    color: var(--text-white);
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 45em) {
+    .cards {
+        grid-template-areas:
+            'user work play study'
+            'user exercise social self-care'
+        ;
+        grid-auto-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+        position: relative;
+    }
+
+    .card-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: calc(100% - 2rem);
+        padding-left: 1rem;
+    }
+
+    .stat {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main {
+        padding: 10rem 1.5rem;
+    }
+
+    .activity {
+        margin-bottom: 1rem;
+    }
+}

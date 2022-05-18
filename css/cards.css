@@ -1,0 +1,39 @@
+.work {
+    background-color: var(--work);
+    background-image: url(../images/icon-work.svg);
+    grid-area: 'work';
+}
+
+.play {
+    background-color: var(--play);
+    background-image: url(../images/icon-play.svg);
+    grid-area: 'play';
+}
+
+.study {
+    background-color: var(--study);
+    background-image: url(../images/icon-study.svg);
+    grid-area: 'study';
+}
+
+.exercise {
+    background-color: var(--exercise);
+    background-image: url(../images/icon-exercise.svg);
+    background-position: top right;
+    grid-area: 'exercise';
+}
+
+.social {
+    background-color: var(--social);
+    background-image: url(../images/icon-social.svg);
+    background-repeat: repeat-y;
+    background-position: top 10%;
+    background-size: 4rem;
+    grid-area: 'social';
+}
+
+.self-care {
+    background-color: var(--self-care);
+    background-image: url(../images/icon-self-care.svg);
+    grid-area: 'self-care';
+}
