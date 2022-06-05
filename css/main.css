@@ -43,7 +43,7 @@ i:hover {
 .card-footer {
     padding: var(--padding);
     background-color: var(--stat-card);
-    border-radius: 1rem;
+    border-radius: .5rem;
 
 }
 
